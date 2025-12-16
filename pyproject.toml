@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recursive_deep_research"
+version = "0.1.0"
+description = "Inference-Time Compute Agent using LangGraph"
+requires-python = ">=3.10"
+authors = [{name = "Research Engineering Team"}]
+
+[tool.black]
+line-length = 100

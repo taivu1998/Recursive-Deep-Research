@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "question": "What is the age difference between the directors of the two highest-grossing films of 1994?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 2,
+    "question": "How many years passed between the founding of OpenAI and the release of GPT-4, and who were the original co-founders?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 3,
+    "question": "Which Nobel Prize winner in Physics was older at the time of their award: Peter Higgs or Roger Penrose?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 4,
+    "question": "Compare the time from founding to IPO for Uber vs Lyft, and which had a higher opening day market cap?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 5,
+    "question": "What is the combined net worth of the founders of the top 3 social media platforms by monthly active users?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 6,
+    "question": "Which country hosted both a Summer Olympics and a FIFA World Cup final in the same decade, and in which years?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 7,
+    "question": "What is the age difference between the CEOs of Apple and Microsoft as of 2024?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 8,
+    "question": "Which university has produced more Nobel Prize winners: Harvard or Cambridge, and by how many?",
+    "category": "multi-hop"
+  },
+  {
+    "id": 9,
+    "question": "Compare the revenue growth of NVIDIA vs AMD in the fiscal quarter following the release of the H100 GPU.",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 10,
+    "question": "Which company had a higher market cap on the day their CEO testified before Congress: Meta (Zuckerberg 2018) or Google (Pichai 2018)?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 11,
+    "question": "What was the GDP growth rate difference between China and India in the year following the COVID-19 pandemic declaration?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 12,
+    "question": "Compare the number of employees at SpaceX vs Blue Origin at the time each company first successfully landed a reusable rocket.",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 13,
+    "question": "Which AI model was released first: Claude 2 or GPT-4, and by how many days?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 14,
+    "question": "How did Apple's App Store revenue compare to Google Play Store revenue in the year the iPhone X was released?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 15,
+    "question": "What was the S&P 500 return in the 12 months following the first COVID vaccine approval vs the 12 months following the 2008 bank bailout?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 16,
+    "question": "Compare Tesla's stock price on the day of its S&P 500 inclusion vs one year later.",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 17,
+    "question": "Which streaming service had more subscribers 1 year after launch: Disney+ or Netflix?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 18,
+    "question": "What was the Bitcoin price change in the month following each of the last 3 halvings?",
+    "category": "temporal-comparison"
+  },
+  {
+    "id": 19,
+    "question": "What was the stock price change of Boeing in the week following each of the two 737 MAX crashes?",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 20,
+    "question": "Compare the funding amounts raised by Anthropic and OpenAI in the 12 months following ChatGPT's release.",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 21,
+    "question": "What was the difference in box office revenue between Avatar 2 and the original Avatar in their first month of release, adjusted for inflation?",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 22,
+    "question": "How did Amazon's stock perform in the quarter following each of its major acquisition announcements (Whole Foods, MGM, One Medical)?",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 23,
+    "question": "What was the market cap change of Twitter/X from Elon Musk's initial investment disclosure to the acquisition close?",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 24,
+    "question": "Compare the IPO valuations of Airbnb, DoorDash, and Snowflake, all of which went public in December 2020.",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 25,
+    "question": "What was the total value of tech layoffs announced in January 2023 vs January 2024?",
+    "category": "temporal-financial"
+  },
+  {
+    "id": 26,
+    "question": "How many combined Grammy Awards have Taylor Swift and Beyonce won as of 2024, and who has more?",
+    "category": "aggregation"
+  },
+  {
+    "id": 27,
+    "question": "What was the combined revenue of the top 3 streaming services (Netflix, Disney+, HBO Max) in Q1 2023?",
+    "category": "aggregation"
+  },
+  {
+    "id": 28,
+    "question": "What is the total number of electric vehicles sold by the top 5 EV manufacturers globally in 2023?",
+    "category": "aggregation"
+  },
+  {
+    "id": 29,
+    "question": "How many combined Academy Awards have Steven Spielberg, Martin Scorsese, and Christopher Nolan won as directors?",
+    "category": "aggregation"
+  },
+  {
+    "id": 30,
+    "question": "What is the total valuation of the top 5 AI startups founded after 2020?",
+    "category": "aggregation"
+  },
+  {
+    "id": 31,
+    "question": "How many total launches did SpaceX, Rocket Lab, and Blue Origin complete in 2023?",
+    "category": "aggregation"
+  },
+  {
+    "id": 32,
+    "question": "What is the combined subscriber count of the top 5 YouTube channels as of 2024?",
+    "category": "aggregation"
+  },
+  {
+    "id": 33,
+    "question": "How did Tesla's delivery numbers compare to Ford's F-150 sales in Q4 2023?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 34,
+    "question": "What was the population difference between Tokyo and New York City in the year the Olympics were held in Tokyo (2021)?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 35,
+    "question": "What was the difference in total COVID-19 cases between the US and Brazil exactly one year after the WHO declared a pandemic?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 36,
+    "question": "What was the unemployment rate in the US on the day Biden was inaugurated vs the day Trump was inaugurated?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 37,
+    "question": "How many active satellites were in orbit when Sputnik launched vs when Starlink reached 1000 satellites?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 38,
+    "question": "What was the global smartphone market share of Apple vs Samsung in Q4 2023?",
+    "category": "temporal-factual"
+  },
+  {
+    "id": 39,
+    "question": "What was the unemployment rate difference between the US and EU in the month following the 2008 Lehman Brothers collapse?",
+    "category": "temporal-economic"
+  },
+  {
+    "id": 40,
+    "question": "How did inflation rates in the US compare before and after the Federal Reserve started raising rates in 2022?",
+    "category": "temporal-economic"
+  },
+  {
+    "id": 41,
+    "question": "What was the change in US national debt from Obama's inauguration to Trump's inauguration vs Trump's to Biden's?",
+    "category": "temporal-economic"
+  },
+  {
+    "id": 42,
+    "question": "Compare the housing price index change in the US during the 2008 crisis vs the 2020-2022 boom.",
+    "category": "temporal-economic"
+  },
+  {
+    "id": 43,
+    "question": "Which spacecraft traveled a greater total distance: Voyager 1 by 2020 or New Horizons by the time it reached Pluto?",
+    "category": "comparison"
+  },
+  {
+    "id": 44,
+    "question": "Which company has more data centers globally: Google or Amazon Web Services?",
+    "category": "comparison"
+  },
+  {
+    "id": 45,
+    "question": "Which programming language has more repositories on GitHub: Python or JavaScript?",
+    "category": "comparison"
+  },
+  {
+    "id": 46,
+    "question": "Which country produces more semiconductors: Taiwan or South Korea?",
+    "category": "comparison"
+  },
+  {
+    "id": 47,
+    "question": "Which city has a higher cost of living index: San Francisco or Zurich?",
+    "category": "comparison"
+  },
+  {
+    "id": 48,
+    "question": "Which AI lab has published more papers at NeurIPS 2023: Google DeepMind or OpenAI?",
+    "category": "comparison"
+  },
+  {
+    "id": 49,
+    "question": "Which electric vehicle has a longer range: Tesla Model S or Lucid Air?",
+    "category": "comparison"
+  },
+  {
+    "id": 50,
+    "question": "Which company spends more on R&D annually: Apple or Alphabet?",
+    "category": "comparison"
+  }
+]

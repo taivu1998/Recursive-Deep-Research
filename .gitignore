@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Project specific
+.env
+checkpoints/
+outputs/
+models/
+*.log
+
+# Logs - ignore most but keep evaluation results
+logs/*.log
+logs/config.json
+!logs/comprehensive_evaluation.png
+!logs/agent_results.csv
+!logs/baseline_results.csv
+
+# Large data files
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Keep data directory but ignore large datasets
+data/*.parquet
+data/*.pkl
+!data/golden_set.json
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.rar
+*.7z
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache directories
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Claude Code
+.claude/

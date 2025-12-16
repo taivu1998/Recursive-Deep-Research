@@ -1,0 +1,21 @@
+experiment_name: "recursive_agent_v1"
+seed: 42
+device: "cpu"  # Agents run on API, but kept for torch compatibility
+
+models:
+  # Planner & Critic: High reasoning capability (Claude Sonnet)
+  planner: "claude-sonnet-4-20250514"
+  critic: "claude-sonnet-4-20250514"
+  # Worker: Cost-efficient for summarization (GPT-4o-mini)
+  worker: "gpt-4o-mini"
+  # Judge: High-quality evaluation (GPT-4o)
+  judge: "gpt-4o"
+
+agent:
+  max_loops: 3           # Maximum critique-refine iterations
+  search_max_results: 5  # Tavily results per query
+
+paths:
+  data_path: "data/golden_set.json"
+  log_dir: "logs/"
+  checkpoint_dir: "checkpoints/"
