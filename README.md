@@ -18,7 +18,7 @@
 
 ## Overview
 
-The **Recursive Deep Research Agent** is an advanced AI system that tackles complex, multi-faceted research questions by decomposing them into structured sub-queries, executing parallel searches, and iteratively refining answers through self-critique. Unlike traditional single-shot RAG systems, this agent employs **inference-time compute** to dynamically expand its reasoning until the answer is sufficiently comprehensive.
+The **Agentic Deep Research Engine** is an advanced AI system that tackles complex, multi-faceted research questions by decomposing them into structured sub-queries, executing parallel searches, and iteratively refining answers through self-critique. Unlike traditional single-shot RAG systems, this agent employs **inference-time compute** to dynamically expand its reasoning until the answer is sufficiently comprehensive.
 
 ### Key Insight
 
@@ -45,7 +45,7 @@ This agent handles all of these automatically.
 
 ## Results
 
-We evaluated the Recursive Deep Research Agent against a **NaiveRAG baseline** (single-shot search + answer) on our 50-question golden set using **GPT-4o as a judge**.
+We evaluated the Agentic Deep Research Engine against a **NaiveRAG baseline** (single-shot search + answer) on our 50-question golden set using **GPT-4o as a judge**.
 
 <p align="center">
   <img src="logs/comprehensive_evaluation.png" alt="Comprehensive Evaluation Results" width="100%">
