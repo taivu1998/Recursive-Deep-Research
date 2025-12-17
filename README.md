@@ -1,4 +1,4 @@
-# Recursive Deep Research Agent
+# Agentic Deep Research Engine: Scaling Inference-Time Compute via Reasoning Loops
 
 <p align="center">
   <strong>An Inference-Time Compute Engine for Complex, Open-Ended Research</strong>
