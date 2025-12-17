@@ -59,7 +59,7 @@ We evaluated the Agentic Deep Research Engine against a **NaiveRAG baseline** (s
 | **Factuality** | 4.04/5 | 3.54/5 | **+14.1%** |
 | **Coherence** | 4.64/5 | 4.54/5 | +2.2% |
 | **Total Score** | 13.10/15 | 12.38/15 | +5.8% |
-| **Perfect Scores (5/5/5)** | 30% | 16% | **+87.5%** |
+| **Perfect Scores (5/5/5)** | 30% | 16% | **+14%** |
 
 ### Head-to-Head Performance
 
