@@ -76,6 +76,7 @@ data/*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # Cache directories
 .pytest_cache/
